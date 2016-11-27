@@ -16,6 +16,8 @@ namespace Engine
 
         public Item RewardItem { get; set; }
 
+        public List<QuestCompletionItem> QuestCompletionItems { get; set; }
+
         public Quest (int id, string name, string description, int rewardexperiencepoints, int rewardgold)
         {
             ID = id;
@@ -23,6 +25,8 @@ namespace Engine
             Description = description;
             RewardExperiencePoints = rewardexperiencepoints;
             RewardGold = rewardgold;
+
+            QuestCompletionItems = new List<QuestCompletionItem>();
         }
     }
 }

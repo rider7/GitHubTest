@@ -52,5 +52,10 @@ namespace SuperAdventure
         {
 
         }
+
+        private void btnUsePotion_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
